@@ -1,0 +1,31 @@
+.modal.visible {
+  display: flex;
+}
+.modal {
+  position: fixed;
+  display: none;
+
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  width: 100vw;
+  height: 100vh;
+
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+
+  background-color: #00000044;
+
+  z-index: 10;
+}
+.modal__content {
+  min-width: 440px;
+
+  padding: 0.5rem 1rem;
+
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

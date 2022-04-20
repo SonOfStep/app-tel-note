@@ -1,0 +1,22 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.title {
+  text-align: center;
+}
+.form-control {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-text {
+  color: var(--content-color);
+  border: 2px solid var(--content-color);
+  padding: 0.25rem 0.5rem;
+  outline: none;
+}
+.input-text:focus {
+  border-color: var(--primary-bg);
+}

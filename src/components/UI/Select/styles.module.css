@@ -1,0 +1,19 @@
+.select {
+  outline: none;
+  background-color: #fff;
+  border: none;
+
+  padding: 0.25rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+  color: var(--content-color);
+  fill: var(--content-color);
+  background-color: var(--content-bg);
+
+  transition: all ease-in-out 0.3s;
+  transition-property: filter, box-shadow;
+}
+.select:hover {
+  box-shadow: rgba(149, 157, 165, 0.8) 0px 8px 24px;
+  filter: hue-rotate(10deg);
+}
