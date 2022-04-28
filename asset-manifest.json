@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/app-tel-note/static/css/main.9a4f5737.css",
+    "main.js": "/app-tel-note/static/js/main.cd50e2c4.js",
+    "service-worker.js": "/app-tel-note/service-worker.js",
+    "index.html": "/app-tel-note/index.html",
+    "main.9a4f5737.css.map": "/app-tel-note/static/css/main.9a4f5737.css.map",
+    "main.cd50e2c4.js.map": "/app-tel-note/static/js/main.cd50e2c4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a4f5737.css",
+    "static/js/main.cd50e2c4.js"
+  ]
+}
